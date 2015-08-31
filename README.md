@@ -8,6 +8,8 @@ A tinder like SwipableView
 ##What is the different between LPSwipableView and MDCSwipeToChoose?
 * 1.You could Undo your manipulation。
 * 2.You could customize swipable direction(customizable) by setting the swipableDirections Property.
+ 
+
  ~~~objective-c
  LIPSwipeToChooseViewOptions *options = [LIPSwipeToChooseViewOptions new];
     options.delegate = self;
