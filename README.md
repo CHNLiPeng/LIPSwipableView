@@ -4,7 +4,7 @@
 ##What it looks like?
 ![](/SwipableView.gif)
 
-###What is the different between LPSwipableView and MDCSwipeToChoose?
+##What is the different between LPSwipableView and MDCSwipeToChoose?
 * 1.You could Undo your manipulation。
 * 2.You could customize swipable direction(customizable) by setting the **swipableDirections** Property.
  
