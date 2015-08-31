@@ -1,13 +1,12 @@
 # LIPSwipableView
-A tinder like SwipableView
+
+##A tinder like SwipableView, inspired by [MDCSwipeToChoose](https://github.com/modocache/MDCSwipeToChoose).
 ##What it looks like?
 ![](/SwipableView.gif)
 
-##Inspire by [MDCSwipeToChoose](https://github.com/modocache/MDCSwipeToChoose).
-
-##What is the different between LPSwipableView and MDCSwipeToChoose?
+###What is the different between LPSwipableView and MDCSwipeToChoose?
 * 1.You could Undo your manipulation。
-* 2.You could customize swipable direction(customizable) by setting the swipableDirections Property.
+* 2.You could customize swipable direction(customizable) by setting the **swipableDirections** Property.
  
 
  ~~~objective-c
