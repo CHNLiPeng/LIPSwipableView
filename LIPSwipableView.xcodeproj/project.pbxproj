@@ -14,6 +14,20 @@
 		E8E2115B1B799305000BF472 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E2115A1B799305000BF472 /* Images.xcassets */; };
 		E8E2115E1B799305000BF472 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8E2115C1B799305000BF472 /* LaunchScreen.xib */; };
 		E8E2116A1B799305000BF472 /* LIPSwipableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211691B799305000BF472 /* LIPSwipableViewTests.m */; };
+		E8E2119F1B7993B6000BF472 /* LIPViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E2119E1B7993B6000BF472 /* LIPViewState.m */; };
+		E8E211A81B79949A000BF472 /* LIPGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211A71B79949A000BF472 /* LIPGeometry.m */; };
+		E8E211AB1B799A9B000BF472 /* UIColor+LIPRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211AA1B799A9B000BF472 /* UIColor+LIPRGB8Bit.m */; };
+		E8E211AE1B799AEA000BF472 /* UIView+LIPBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211AD1B799AEA000BF472 /* UIView+LIPBorderedLabel.m */; };
+		E8E211B41B799BF2000BF472 /* LIPSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211B31B799BF2000BF472 /* LIPSwipeOptions.m */; };
+		E8E211B91B799CA4000BF472 /* LIPPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211B81B799CA4000BF472 /* LIPPanState.m */; };
+		E8E211BC1B799D04000BF472 /* LIPSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211BB1B799D04000BF472 /* LIPSwipeResult.m */; };
+		E8E211C11B799E75000BF472 /* LIPSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211C01B799E75000BF472 /* LIPSwipeToChooseView.m */; };
+		E8E211C41B799FB1000BF472 /* UIView+LIPSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211C31B799FB1000BF472 /* UIView+LIPSwipeToChoose.m */; };
+		E8E211C71B79A16D000BF472 /* LIPSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211C61B79A16D000BF472 /* LIPSwipeToChooseViewOptions.m */; };
+		E8E211CE1B79A7B3000BF472 /* ChoosePersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211CD1B79A7B3000BF472 /* ChoosePersonViewController.m */; };
+		E8E211D21B79A7BA000BF472 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211D11B79A7BA000BF472 /* Person.m */; };
+		E8E211D81B79A7C0000BF472 /* ChoosePersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211D51B79A7C0000BF472 /* ChoosePersonView.m */; };
+		E8E211D91B79A7C0000BF472 /* ImageLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E211D71B79A7C0000BF472 /* ImageLabelView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,37 @@
 		E8E211631B799305000BF472 /* LIPSwipableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIPSwipableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E211681B799305000BF472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8E211691B799305000BF472 /* LIPSwipableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIPSwipableViewTests.m; sourceTree = "<group>"; };
+		E8E2119D1B7993B6000BF472 /* LIPViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPViewState.h; sourceTree = "<group>"; };
+		E8E2119E1B7993B6000BF472 /* LIPViewState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPViewState.m; sourceTree = "<group>"; };
+		E8E211A61B79949A000BF472 /* LIPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPGeometry.h; sourceTree = "<group>"; };
+		E8E211A71B79949A000BF472 /* LIPGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPGeometry.m; sourceTree = "<group>"; };
+		E8E211A91B799A9B000BF472 /* UIColor+LIPRGB8Bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LIPRGB8Bit.h"; sourceTree = "<group>"; };
+		E8E211AA1B799A9B000BF472 /* UIColor+LIPRGB8Bit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LIPRGB8Bit.m"; sourceTree = "<group>"; };
+		E8E211AC1B799AEA000BF472 /* UIView+LIPBorderedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LIPBorderedLabel.h"; sourceTree = "<group>"; };
+		E8E211AD1B799AEA000BF472 /* UIView+LIPBorderedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LIPBorderedLabel.m"; sourceTree = "<group>"; };
+		E8E211B01B799BBE000BF472 /* LIPSwipeToChoose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIPSwipeToChoose.h; sourceTree = "<group>"; };
+		E8E211B21B799BF2000BF472 /* LIPSwipeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPSwipeOptions.h; sourceTree = "<group>"; };
+		E8E211B31B799BF2000BF472 /* LIPSwipeOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPSwipeOptions.m; sourceTree = "<group>"; };
+		E8E211B51B799C22000BF472 /* LIPSwipeDirection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIPSwipeDirection.h; sourceTree = "<group>"; };
+		E8E211B71B799CA4000BF472 /* LIPPanState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPPanState.h; sourceTree = "<group>"; };
+		E8E211B81B799CA4000BF472 /* LIPPanState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPPanState.m; sourceTree = "<group>"; };
+		E8E211BA1B799D04000BF472 /* LIPSwipeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPSwipeResult.h; sourceTree = "<group>"; };
+		E8E211BB1B799D04000BF472 /* LIPSwipeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPSwipeResult.m; sourceTree = "<group>"; };
+		E8E211BF1B799E75000BF472 /* LIPSwipeToChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPSwipeToChooseView.h; sourceTree = "<group>"; };
+		E8E211C01B799E75000BF472 /* LIPSwipeToChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPSwipeToChooseView.m; sourceTree = "<group>"; };
+		E8E211C21B799FB1000BF472 /* UIView+LIPSwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LIPSwipeToChoose.h"; sourceTree = "<group>"; };
+		E8E211C31B799FB1000BF472 /* UIView+LIPSwipeToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LIPSwipeToChoose.m"; sourceTree = "<group>"; };
+		E8E211C51B79A16D000BF472 /* LIPSwipeToChooseViewOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPSwipeToChooseViewOptions.h; sourceTree = "<group>"; };
+		E8E211C61B79A16D000BF472 /* LIPSwipeToChooseViewOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPSwipeToChooseViewOptions.m; sourceTree = "<group>"; };
+		E8E211C81B79A3A1000BF472 /* LIPSwipeToChooseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPSwipeToChooseDelegate.h; sourceTree = "<group>"; };
+		E8E211CC1B79A7B3000BF472 /* ChoosePersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosePersonViewController.h; sourceTree = "<group>"; };
+		E8E211CD1B79A7B3000BF472 /* ChoosePersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosePersonViewController.m; sourceTree = "<group>"; };
+		E8E211D01B79A7BA000BF472 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E8E211D11B79A7BA000BF472 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E8E211D41B79A7C0000BF472 /* ChoosePersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosePersonView.h; sourceTree = "<group>"; };
+		E8E211D51B79A7C0000BF472 /* ChoosePersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosePersonView.m; sourceTree = "<group>"; };
+		E8E211D61B79A7C0000BF472 /* ImageLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLabelView.h; sourceTree = "<group>"; };
+		E8E211D71B79A7C0000BF472 /* ImageLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLabelView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +108,7 @@
 		E8E211411B799305000BF472 = {
 			isa = PBXGroup;
 			children = (
+				E8E2119C1B799345000BF472 /* LIPSwipableViewFile */,
 				E8E2114C1B799305000BF472 /* LIPSwipableView */,
 				E8E211661B799305000BF472 /* LIPSwipableViewTests */,
 				E8E2114B1B799305000BF472 /* Products */,
@@ -81,6 +127,9 @@
 		E8E2114C1B799305000BF472 /* LIPSwipableView */ = {
 			isa = PBXGroup;
 			children = (
+				E8E211CF1B79A7BA000BF472 /* Models */,
+				E8E211CB1B79A7B3000BF472 /* Controllers */,
+				E8E211D31B79A7C0000BF472 /* Views */,
 				E8E211511B799305000BF472 /* AppDelegate.h */,
 				E8E211521B799305000BF472 /* AppDelegate.m */,
 				E8E211541B799305000BF472 /* ViewController.h */,
@@ -117,6 +166,97 @@
 				E8E211681B799305000BF472 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8E2119C1B799345000BF472 /* LIPSwipableViewFile */ = {
+			isa = PBXGroup;
+			children = (
+				E8E211AF1B799B8E000BF472 /* Public */,
+				E8E2119D1B7993B6000BF472 /* LIPViewState.h */,
+				E8E2119E1B7993B6000BF472 /* LIPViewState.m */,
+				E8E211A61B79949A000BF472 /* LIPGeometry.h */,
+				E8E211A71B79949A000BF472 /* LIPGeometry.m */,
+				E8E211A91B799A9B000BF472 /* UIColor+LIPRGB8Bit.h */,
+				E8E211AA1B799A9B000BF472 /* UIColor+LIPRGB8Bit.m */,
+				E8E211AC1B799AEA000BF472 /* UIView+LIPBorderedLabel.h */,
+				E8E211AD1B799AEA000BF472 /* UIView+LIPBorderedLabel.m */,
+			);
+			path = LIPSwipableViewFile;
+			sourceTree = "<group>";
+		};
+		E8E211AF1B799B8E000BF472 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				E8E211BD1B799DB9000BF472 /* View */,
+				E8E211B61B799C8C000BF472 /* State */,
+				E8E211B11B799BD5000BF472 /* Options */,
+				E8E211B01B799BBE000BF472 /* LIPSwipeToChoose.h */,
+				E8E211B51B799C22000BF472 /* LIPSwipeDirection.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		E8E211B11B799BD5000BF472 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				E8E211B21B799BF2000BF472 /* LIPSwipeOptions.h */,
+				E8E211B31B799BF2000BF472 /* LIPSwipeOptions.m */,
+				E8E211C51B79A16D000BF472 /* LIPSwipeToChooseViewOptions.h */,
+				E8E211C61B79A16D000BF472 /* LIPSwipeToChooseViewOptions.m */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		E8E211B61B799C8C000BF472 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				E8E211B71B799CA4000BF472 /* LIPPanState.h */,
+				E8E211B81B799CA4000BF472 /* LIPPanState.m */,
+				E8E211BA1B799D04000BF472 /* LIPSwipeResult.h */,
+				E8E211BB1B799D04000BF472 /* LIPSwipeResult.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		E8E211BD1B799DB9000BF472 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8E211BF1B799E75000BF472 /* LIPSwipeToChooseView.h */,
+				E8E211C01B799E75000BF472 /* LIPSwipeToChooseView.m */,
+				E8E211C21B799FB1000BF472 /* UIView+LIPSwipeToChoose.h */,
+				E8E211C31B799FB1000BF472 /* UIView+LIPSwipeToChoose.m */,
+				E8E211C81B79A3A1000BF472 /* LIPSwipeToChooseDelegate.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8E211CB1B79A7B3000BF472 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8E211CC1B79A7B3000BF472 /* ChoosePersonViewController.h */,
+				E8E211CD1B79A7B3000BF472 /* ChoosePersonViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E8E211CF1B79A7BA000BF472 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8E211D01B79A7BA000BF472 /* Person.h */,
+				E8E211D11B79A7BA000BF472 /* Person.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8E211D31B79A7C0000BF472 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8E211D41B79A7C0000BF472 /* ChoosePersonView.h */,
+				E8E211D51B79A7C0000BF472 /* ChoosePersonView.m */,
+				E8E211D61B79A7C0000BF472 /* ImageLabelView.h */,
+				E8E211D71B79A7C0000BF472 /* ImageLabelView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +359,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E211D81B79A7C0000BF472 /* ChoosePersonView.m in Sources */,
 				E8E211561B799305000BF472 /* ViewController.m in Sources */,
+				E8E211C41B799FB1000BF472 /* UIView+LIPSwipeToChoose.m in Sources */,
+				E8E211C71B79A16D000BF472 /* LIPSwipeToChooseViewOptions.m in Sources */,
+				E8E211D91B79A7C0000BF472 /* ImageLabelView.m in Sources */,
+				E8E211C11B799E75000BF472 /* LIPSwipeToChooseView.m in Sources */,
+				E8E211A81B79949A000BF472 /* LIPGeometry.m in Sources */,
+				E8E211B91B799CA4000BF472 /* LIPPanState.m in Sources */,
+				E8E211B41B799BF2000BF472 /* LIPSwipeOptions.m in Sources */,
 				E8E211531B799305000BF472 /* AppDelegate.m in Sources */,
+				E8E2119F1B7993B6000BF472 /* LIPViewState.m in Sources */,
+				E8E211AE1B799AEA000BF472 /* UIView+LIPBorderedLabel.m in Sources */,
+				E8E211AB1B799A9B000BF472 /* UIColor+LIPRGB8Bit.m in Sources */,
 				E8E211501B799305000BF472 /* main.m in Sources */,
+				E8E211D21B79A7BA000BF472 /* Person.m in Sources */,
+				E8E211CE1B79A7B3000BF472 /* ChoosePersonViewController.m in Sources */,
+				E8E211BC1B799D04000BF472 /* LIPSwipeResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,8 +504,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LIPSwipableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -360,7 +517,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LIPSwipableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
